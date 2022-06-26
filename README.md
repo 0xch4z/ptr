@@ -43,5 +43,5 @@ var page int
 page = *opts.Page // might panic
 if opts.Page != nil { page = *opts.Page } // clunky
 
-page = ptr.ValueFrom(opts.Page)
+page = ptr.ValueFrom(opts.Page) // noice
 ```
