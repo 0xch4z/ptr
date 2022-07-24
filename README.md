@@ -16,7 +16,7 @@ There is no function to create a reference to a literal value in Go's built-ins
 or it's standard library. Before generics, I found myself copy-pasting the same
 `stringPtr(string) *string`, `intPtr(int) *int`, etc. function declarations in
 every code base I started. This is obviously not ideal and gets increasingly less
-maintainable as the types of literal values you need to make references to very
+maintainable as the types of literal values you need to make references to vary
 and get more complex.
 
 ```go
