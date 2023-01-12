@@ -24,7 +24,7 @@ takesOptionalString(&"hi") // illegal
 takesOptionalString(aws.String("hi")) // what does AWS have to do with this???
 func strPtr(s string) *string { return &s }; takesOptionalString(strPtr("hi")) // unmaintainable
 
-takesOptionalInt(ptr.From(5)) // noice
+takesOptionalInt(ptr.To(5)) // noice
 ```
 
 #### `ptr.ValueFrom`
